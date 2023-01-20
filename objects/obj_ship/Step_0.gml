@@ -11,11 +11,15 @@ if(keyboard_check(vk_up)){
 }
 
 if(keyboard_check(vk_space)){
+	
 	var inst = instance_create_layer(x,y,"Instances",obj_bullet)
 	inst.direction = image_angle
 	var inst = instance_create_layer(x,y,"Instances",obj_bullet)
-	inst.direction = image_angle
+	inst.direction = image_angle+5
+	var inst = instance_create_layer(x,y,"Instances",obj_bullet)
+	inst.direction = image_angle-5
 }
+
 
 move_wrap(true,true,sprite_width/2)
 
