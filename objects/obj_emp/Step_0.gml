@@ -1,6 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-repeat(1){
+repeat(0){
 move_wrap(true,true,sprite_width/2)
 }
 

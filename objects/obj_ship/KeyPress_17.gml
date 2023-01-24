@@ -1,7 +1,9 @@
 candeath=0
 
-repeat(2000){
-instance_create_layer(x,y,"Instances",obj_asteroid)
+instance_destroy(obj_asteroid)
+repeat(1000){
+var inst = instance_create_layer(x,y,"Instances",obj_asteroid)
+inst.sprite_index = spr_rock_big
 }
 
 
