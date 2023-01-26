@@ -7,7 +7,7 @@ move_wrap(true,true,sprite_width/2)
 life += 1
 
 
-if(life == 300){
+if(life == 125){
 	instance_destroy()
 }
 

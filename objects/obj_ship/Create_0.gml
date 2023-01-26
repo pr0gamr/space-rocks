@@ -4,7 +4,7 @@ alarm_set(11,100)
 blast=0
 
 
-
+fire = 0
 
 
 
