@@ -1,4 +1,4 @@
-alarm_set(1,50)
+instance_destroy()
 
 
 
