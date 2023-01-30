@@ -21,7 +21,7 @@ if(keyboard_check(vk_space)){
 	inst.direction = image_angle+5
 	var inst = instance_create_layer(x,y,"Instances",obj_bullet)
 	inst.direction = image_angle-5
-	fire = 30
+	fire = 20
 }
 }
 
