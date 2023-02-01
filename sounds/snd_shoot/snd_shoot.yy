@@ -14,8 +14,8 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "snd_shoot",
-  "duration": 0.0,
+  "soundFile": "snd_shoot.wav",
+  "duration": 0.421224,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",
