@@ -6,15 +6,58 @@ switch(room){
 		break
 
 	case Rm_start:
-	
+		draw_set_halign(fa_center)
+	var C = c_aqua
+		draw_text_transformed_color(
+		room_width/2, 100, "SPACE ROCKS", 
+		3, 3, 0, C, C, C, C, 1
+		)
+		draw_text(
+		room_width/2, 200, 
+		@"
+Score 1,000 points to win!
+
+UP: move
+LEFT/RIGHT: change direction
+ALT: slow down
+SPACE: shoot
+TAB: emp
+C: cluster bomb
+
+
+>> PRESS ENTER TO START <<
+")
+		draw_set_halign(fa_left)
 	break
 	
 	case Rm_win:
-	
+	draw_set_halign(fa_center)
+	var C = c_yellow
+		draw_text_transformed_color(
+		room_width/2, 200, "YOU WON!", 
+		3, 3, 0, C, C, C, C, 1
+		)
+		draw_text(
+		room_width/2, 300, 
+"PRESS ENTER TO RESTART")
+		draw_set_halign(fa_left)
 	break
 	
 	case Rm_gameover:
-	
+		
+	draw_set_halign(fa_center)
+	var C = c_red
+		draw_text_transformed_color(
+		room_width/2, 150, "GAME OVER", 
+		3, 3, 0, C, C, C, C, 1
+		)
+		draw_text(
+		room_width/2, 250, 
+		"FINAL SCORE: "+string(score))
+		draw_text(
+		room_width/2, 300, 
+		"PRESS ENTER TO RESTART")
+		draw_set_halign(fa_left)
 	break
 }
 

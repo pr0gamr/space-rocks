@@ -38,8 +38,8 @@
     "children": [],
   },
   "RoomOrderNodes": [
-    {"roomId":{"name":"Rm_game","path":"rooms/Rm_game/Rm_game.yy",},},
     {"roomId":{"name":"Rm_start","path":"rooms/Rm_start/Rm_start.yy",},},
+    {"roomId":{"name":"Rm_game","path":"rooms/Rm_game/Rm_game.yy",},},
     {"roomId":{"name":"Rm_win","path":"rooms/Rm_win/Rm_win.yy",},},
     {"roomId":{"name":"Rm_gameover","path":"rooms/Rm_gameover/Rm_gameover.yy",},},
   ],
